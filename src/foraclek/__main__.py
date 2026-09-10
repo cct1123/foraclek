@@ -1,4 +1,4 @@
-"""Compatibility launcher. Prefer `uv run foraclek`; see README.md."""
+"""Run the CLI with `python -m foraclek`."""
 
 from foraclek.cli import main
 

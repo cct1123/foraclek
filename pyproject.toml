@@ -1,0 +1,17 @@
+[project]
+name = "foraclek"
+version = "0.1.0"
+description = "Review a Thorlabs CSV cart and fill an Oracle classic non-catalog request."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["selenium>=4.30,<5"]
+
+[project.scripts]
+foraclek = "foraclek.cli:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
